@@ -1,0 +1,62 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/test/**/generated/
+
+#FCM
+certification.json
+#https
+src/main/resources/keystore.p12
+
+###STS###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+/src/main/resources/application-oauth.yml
+/src/test/resources/application-oauth.yml
+/src/main/resources/application-jwt.yml
+/src/test/resources/application-jwt.yml
+
+
+### Query DSL ###
+/src/main/generated/
+
+### OcrConfig ###
+/src/main/resources/OcrConfig.properties
+/src/test/resources/OcrConfig.properties
+
+/src/main/resources/certification.json
+/src/test/resources/certification.json
+
+### S3 ###
+/src/main/resources/application-private.properties
+/src/test/resources/application-private.properties

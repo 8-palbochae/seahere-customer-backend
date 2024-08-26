@@ -1,0 +1,9 @@
+SET REFERENTIAL_INTEGRITY FALSE;
+delete from outgoing_detail;
+delete from outgoing;
+delete from inventory_detail;
+delete from inventories;
+delete from product;
+delete from users;
+delete from company;
+SET REFERENTIAL_INTEGRITY TRUE;
